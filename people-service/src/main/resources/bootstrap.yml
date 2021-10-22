@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      label: master #git分支
+      name: product #配置文件前半部分
+      profile: test #开发环境，配置文件后半部分
+      uri: http://localhost:9999 #访问路径  --配置中心访问地址
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: refresh
